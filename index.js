@@ -130,7 +130,7 @@ async function main() {
 			let p = portals[i];
 			try {
 				for(let post of p.feed) {
-					if(post.message.match(new RegExp(pattern, 'i')) && post.timestamp < time) {
+					if(!post.whisper && post.message.match(new RegExp(pattern, 'i')) && post.timestamp < time) {
 						results.push({portal:p, post:post});
 					}
 				}
