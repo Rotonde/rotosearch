@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'noto_sans';
+	src: url('dat://c4ffbbfabc5a7e8e9c2f7db710c163db88adb22e3921c8a62d7f2004fe578076/fonts/noto_sans.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+body { font-family: "Noto Sans", "sans-serif"; font-size: 14px}
+ul { list-style-type: none; padding:0; }
