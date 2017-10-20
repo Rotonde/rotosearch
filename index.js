@@ -91,7 +91,6 @@ function tick() {
 			console.log(e);
 		});
 	}
-	getID("fetch-count").innerHTML = fetching();
 	requestAnimationFrame(tick);
 }
 
